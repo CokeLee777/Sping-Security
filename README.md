@@ -36,7 +36,8 @@
 
 ## 3. Spring Security Practice
 
-* [X] [기본 시큐리티 실습](/)
+* [X] [기본 시큐리티 실습](/core-spring-security)
+* [X] [스프링 시큐리티 - JWT](/spring-jwt)
 
 ### 출처
 
