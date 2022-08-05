@@ -30,7 +30,7 @@ public class UserController {
 		return "user/login/register";
 	}
 
-	@PostMapping("users")
+	@PostMapping("/users")
 	public String createUser(AccountDto accountDto){
 		ModelMapper modelMapper = new ModelMapper();
 		Account account = modelMapper.map(accountDto, Account.class);

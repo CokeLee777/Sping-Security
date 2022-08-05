@@ -1,18 +1,16 @@
 package io.security.corespingsecurity.security.provider;
 
-import io.security.corespingsecurity.security.common.FormWebAuthenticationDetails;
 import io.security.corespingsecurity.security.service.AccountContext;
+import io.security.corespingsecurity.security.token.AjaxAuthenticationToken;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.AuthenticationProvider;
 import org.springframework.security.authentication.BadCredentialsException;
-import org.springframework.security.authentication.InsufficientAuthenticationException;
-import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.AuthenticationException;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.crypto.password.PasswordEncoder;
 
-public class CustomAuthenticationProvider implements AuthenticationProvider {
+public class AjaxAuthenticationProvider implements AuthenticationProvider {
 
     @Autowired
     private UserDetailsService userDetailsService;
@@ -32,19 +30,13 @@ public class CustomAuthenticationProvider implements AuthenticationProvider {
             throw new BadCredentialsException("Invalid password");
         }
 
-        FormWebAuthenticationDetails formWebAuthenticationDetails = (FormWebAuthenticationDetails) authentication.getDetails();
-        String secretKey = formWebAuthenticationDetails.getSecretKey();
-        if(secretKey == null || !secretKey.equals("secret")){
-            throw new IllegalArgumentException("Invalid secret");
-        }
-
         //인증이 완료된 authentication 객체를 AuthenticationManager 에게 반환
-        return new UsernamePasswordAuthenticationToken(accountContext.getAccount(), null, accountContext.getAuthorities());
+        return new AjaxAuthenticationToken(accountContext.getAccount(), null, accountContext.getAuthorities());
     }
 
     @Override
     public boolean supports(Class<?> authentication) {
         // 토큰값이 authentication 클래스 타입과 일치할 때, 발동하도록
-        return UsernamePasswordAuthenticationToken.class.isAssignableFrom(authentication);
+        return AjaxAuthenticationToken.class.isAssignableFrom(authentication);
     }
 }
