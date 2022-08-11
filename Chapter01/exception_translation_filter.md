@@ -19,7 +19,7 @@
 
 ## ExceptionTranslationFilter
 
-![ExceptionTranslationFilter](./images/exception_translation_filter.pn)
+![ExceptionTranslationFilter](./images/exception_translation_filter.png)
 
 ### **예시 1 - 사용자가 인증을 받지않고 /user 자원에 접근**
 
