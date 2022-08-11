@@ -11,6 +11,13 @@
 	- RequestCache: 사용자의 이전 요청 정보를 세션에 저장하고 이를 꺼내오는 캐시 메커니즘이다.
 		- SavedRequest: 사용자가 요청했던 request 파라미터 값들, 그 당시의 헤더값들이 저장된다.
 
+```java
+//예외처리 기능이 작동한다.
+http.exceptionHandling()
+	.authenticationEntryPoint(authenticationEntryPoint())
+	.accessDeniedHandler(accessDeniedHandler());
+```
+
 ### AccessDeniedException
 
 인가 예외처리를 위한 클래스이다.
