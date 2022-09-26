@@ -19,7 +19,7 @@
 * [X] [사이트 간 요청 위조 - CSRF, CsrfFilter](/Chapter01/csrf_filter.md) 
 
 ## 2. Spring Security Core Architecture
-* [X] [위임 필터 및 필터 빈 초기화 - DelegatingProxyChain, FilterChainProxy](/)
+* [X] [위임 필터 및 필터 빈 초기화 - DelegatingProxyChain, FilterChainProxy](/Chapter02/delegating_filter_proxy_and_filter_chain_proxy.md)
 * [X] [필터 초기화와 다중 보안 설정](/)
 * [X] [인증 개념 이해 - Authentication](/)
 * [X] [인증 저장소 - SecurityContextHolder, SecurityContext](/)
