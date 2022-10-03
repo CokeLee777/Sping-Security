@@ -21,8 +21,8 @@
 ## 2. Spring Security Core Architecture
 * [X] [위임 필터 및 필터 빈 초기화 - DelegatingProxyChain, FilterChainProxy](/Chapter02/delegating_filter_proxy_and_filter_chain_proxy.md)
 * [X] [필터 초기화와 다중 보안 설정](/Chapter02/multi_security_config_class.md)
-* [X] [인증 개념 이해 - Authentication](/)
-* [X] [인증 저장소 - SecurityContextHolder, SecurityContext](/)
+* [X] [인증 개념 이해 - Authentication](/Chapter02/authentication.md)
+* [X] [인증 저장소 - SecurityContextHolder, SecurityContext](/Chapter02/securitycontextholder_securitycontext.md)
 * [X] [인증 저장소 필터 - SecurityContextPersistenceFilter](/)
 * [X] [인증 흐름 이해 - Authentication Flow](/)
 * [X] [인증 관리자 - AuthenticationManager](/)
