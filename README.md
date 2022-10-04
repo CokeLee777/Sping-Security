@@ -23,7 +23,7 @@
 * [X] [필터 초기화와 다중 보안 설정](/Chapter02/multi_security_config_class.md)
 * [X] [인증 개념 이해 - Authentication](/Chapter02/authentication.md)
 * [X] [인증 저장소 - SecurityContextHolder, SecurityContext](/Chapter02/securitycontextholder_securitycontext.md)
-* [X] [인증 저장소 필터 - SecurityContextPersistenceFilter](/)
+* [X] [인증 저장소 필터 - SecurityContextPersistenceFilter](/Chapter02/SecurityContextPersistenceFilter.md)
 * [X] [인증 흐름 이해 - Authentication Flow](/)
 * [X] [인증 관리자 - AuthenticationManager](/)
 * [X] [인증 처리자 - AuthenticationProvider](/)
