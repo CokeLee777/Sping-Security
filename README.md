@@ -25,7 +25,7 @@
 * [X] [인증 저장소 - SecurityContextHolder, SecurityContext](/Chapter02/securitycontextholder_securitycontext.md)
 * [X] [인증 저장소 필터 - SecurityContextPersistenceFilter](/Chapter02/SecurityContextPersistenceFilter.md)
 * [X] [인증 관리자 - AuthenticationManager](/Chapter02/AuthenticationManager.md)
-* [X] [인증 처리자 - AuthenticationProvider](/)
+* [X] [인증 처리자 - AuthenticationProvider](/Chapter02/AuthenticationProvider.md)
 * [X] [인가 개념 및 필터 이해 : Authorization, FilterSecurityInterceptor](/)
 * [X] [인가 결정 심의자 - AccessDecisionManager, AccessDecisionVoter](/)
 * [X] [스프링 시큐리티 필터 및 아키텍처 정리](/)
