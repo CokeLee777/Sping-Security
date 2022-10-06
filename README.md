@@ -27,7 +27,7 @@
 * [X] [인증 관리자 - AuthenticationManager](/Chapter02/AuthenticationManager.md)
 * [X] [인증 처리자 - AuthenticationProvider](/Chapter02/AuthenticationProvider.md)
 * [X] [인가 개념 및 필터 이해 : Authorization, FilterSecurityInterceptor](/Chapter02/Authorization_FilterSecurityInterceptor.md)
-* [X] [인가 결정 심의자 - AccessDecisionManager, AccessDecisionVoter](/)
+* [X] [인가 결정 심의자 - AccessDecisionManager, AccessDecisionVoter](/Chapter02/AccessDecisionManager_AccessDecisionVoter.md)
 
 ## 3. Spring Security Practice
 
