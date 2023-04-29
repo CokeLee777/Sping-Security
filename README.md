@@ -8,9 +8,10 @@
 3. [스프링 시큐리티 실습](#3-spring_security_src)
 
 ## 1. Spring Security Basic API & Filter
-* [X] [사용자 정의 보안 기능](/)
-* [X] [Form Login 인증](/)
-* [X] [Form Login 인증 필터](/)
+* [X] [사용자 정의 보안 기능](/Chapter01/custom_authentication.md)
+* [X] [HTTP Basic 인증](/Chapter01/basic_http.md)
+* [ ] [Form Login 인증](/)
+* [ ] [Form Login 인증 필터](/)
 * [X] [Logout 처리, LogoutFilter](/)
 * [X] [Remember Me 인증 & 인증 필터 : RememberMeAuthenticationFilter](/Chapter01/remember_me.md)
 * [X] [익명 사용자 인증 필터 : AnonymousAuthenticationFilter](/Chapter01/anonymous.md)
